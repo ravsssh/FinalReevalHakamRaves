@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "767451480554",
+    "firebase_url": "https://recyclerviewhakam-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "recyclerviewhakam",
+    "storage_bucket": "recyclerviewhakam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767451480554:android:e4b103c30a520a1e65f293",
+        "android_client_info": {
+          "package_name": "com.example.tessss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767451480554-3oh9kittst0kv0j061pq4p6ij4qnktfp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClQt6oEIYmA6qwTJbpIf5P2Lvx97cQy4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767451480554-3oh9kittst0kv0j061pq4p6ij4qnktfp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
