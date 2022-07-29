@@ -68,7 +68,9 @@
                 android:id="@+id/tvtanggal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="tanggal"/>
+                android:text="tanggal"
+                android:textColor="@color/black"
+                />
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

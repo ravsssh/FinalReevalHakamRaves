@@ -2,16 +2,21 @@ package com.example.tessss;
 
 public class User {
 
-    String firstName, lastName, age;
+    String nama, foto, tanggal, chat;
 
-    public String getFirstName() {    return firstName;
+    public String getNama() {
+        return nama;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getFoto() {
+        return foto;
     }
 
-    public String getAge() {
-        return age;
+    public String getTanggal() {
+        return tanggal;
+    }
+
+    public String getChat() {
+        return chat;
     }
 }

@@ -35,9 +35,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
         User user = list.get(position);
-        holder.firstName.setText(user.getFirstName());
-        holder.lastName.setText(user.getLastName());
-        holder.age.setText(user.getAge());
+        holder.chat.setText(user.getChat());
+        holder.tanggal.setText(user.getTanggal());
+        holder.nama.setText(user.getNama());
     }
 
     @Override
@@ -47,14 +47,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     public static class MyViewHolder extends RecyclerView.ViewHolder{
 
-        TextView firstName, lastName, age;
+        TextView nama, chat, tanggal;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            firstName = itemView.findViewById(R.id.tvfirstName);
-            lastName = itemView.findViewById(R.id.tvlastName);
-            age = itemView.findViewById(R.id.tvage);
+            nama = itemView.findViewById(R.id.tvchat);
+            tanggal = itemView.findViewById(R.id.tvtanggal);
+            chat = itemView.findViewById(R.id.tvnama);
 
         }
     }}
